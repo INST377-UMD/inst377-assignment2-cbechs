@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
+nav {
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav li:hover {
+  color: #f39c12;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #2980b9;
+}
+
+.audio-controls {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-top: 1px solid #bdc3c7;
+}
+
+.audio-controls ul {
+  list-style-type: disc;
+  margin: 10px auto;
+  max-width: 300px;
+  text-align: left;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table th {
+  background-color: #34495e;
+  color: white;
+}
+
+.carousel img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#breed-buttons button {
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#breed-buttons button:hover {
+  background-color: #732d91;
+}
+
+.breed-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
